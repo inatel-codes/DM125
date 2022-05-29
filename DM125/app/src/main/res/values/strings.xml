@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DM125</string>
+    <string name="str_name">Name:</string>
+    <string name="str_description">Description:</string>
+    <string name="str_code">Code:</string>
+    <string name="str_price">Price:</string>
+    <string name="save">Save</string>
+</resources>

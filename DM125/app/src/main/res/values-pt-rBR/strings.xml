@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DM125</string>
+    <string name="save">Salvar</string>
+    <string name="str_name">Nome:</string>
+    <string name="str_description">Descrição:</string>
+    <string name="str_code">Código:</string>
+    <string name="str_price">Preço:</string>
+</resources>
