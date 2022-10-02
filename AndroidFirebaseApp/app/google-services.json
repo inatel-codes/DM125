@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "573296820243",
+    "project_id": "dm125-firebaseapp",
+    "storage_bucket": "dm125-firebaseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573296820243:android:b0365fea7c6df3b3677fe6",
+        "android_client_info": {
+          "package_name": "br.inatel.alexander.androidfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573296820243-b1g0ihhgndt67do31aeqbbr0sd9q60n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.inatel.alexander.androidfirebaseapp",
+            "certificate_hash": "96c51d84c58587aa34870d85e3cbde538aeb2d14"
+          }
+        },
+        {
+          "client_id": "573296820243-2vrkif550o6alhjm4r9a1duvv7u594cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtOeLhp4o8vWwN64GG8p0kPs0_E13DEvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573296820243-2vrkif550o6alhjm4r9a1duvv7u594cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

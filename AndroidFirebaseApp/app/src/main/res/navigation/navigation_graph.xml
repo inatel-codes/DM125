@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/fragmentProductList">
+    <fragment
+        android:id="@+id/fragmentProductList"
+        android:name="br.inatel.alexander.androidfirebaseapp.product.ProductListFragment"
+        android:label="fragment_products_list"
+        tools:layout="@layout/fragment_products_list" >
+        <action
+            android:id="@+id/action_showProductDetail"
+            app:destination="@id/fragmentProductDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentProductDetail"
+        android:name="br.inatel.alexander.androidfirebaseapp.productdetail.ProductDetailFragment"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail" >
+        <argument
+            android:name="productCode"
+            app:nullable="true"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentUserProfile"
+        android:name="br.inatel.alexander.androidfirebaseapp.userprofile.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" >
+    </fragment>
+</navigation>
